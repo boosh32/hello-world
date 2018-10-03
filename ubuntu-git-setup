@@ -1,0 +1,8 @@
+sudo apt-get install git
+git config --global user.name "user name"
+git config --global user.email "email"
+mkdir code
+cd code/
+git init
+git remote add origin https://github.com/boosh32/hello-world.git
+git clone https://github.com/boosh32/hello-world.git
